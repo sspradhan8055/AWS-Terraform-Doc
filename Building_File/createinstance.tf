@@ -13,8 +13,8 @@ resource "aws_instance" "MyFirstInstnace" {
   
 
   provisioner "file" {
-    source = "installNginx.sh"
-    destination = "tmp/installNginx.sh"
+      source = "installNginx.sh"
+      destination = "/tmp/installNginx.sh"
   }
 
   provisioner "remote-exec" {
