@@ -24,3 +24,4 @@ resource "aws_instance" "MyFirstInstnace" {
       "sudo /tmp/installNginx.sh",
     ]
   }
+}
