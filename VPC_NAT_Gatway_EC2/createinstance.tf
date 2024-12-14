@@ -7,4 +7,3 @@ resource "aws_instance" "MyFirstInstnace" {
     Name = "terrafom-elb"
   }
 }
-
